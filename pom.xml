@@ -11,8 +11,29 @@
     <modules>
         <module>SpringMVC-01-ReviewServlet</module>
         <module>SpringMVC-02-helloMVC</module>
+        <module>SpringMVC-03-Annotation</module>
+        <module>SpringMVC-04-Controller</module>
     </modules>
-
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+    </build>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
