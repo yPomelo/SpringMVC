@@ -9,6 +9,7 @@
         <module name="SpringMVC-02-helloMVC" />
         <module name="SpringMVC-04-Controller" />
         <module name="SpringMVC-01-ReviewServlet" />
+        <module name="SpringMVC-05-json" />
         <module name="SpringMVC-03-Annotation" />
       </profile>
     </annotationProcessing>
